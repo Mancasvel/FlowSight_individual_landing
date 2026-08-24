@@ -1,0 +1,21 @@
+# FlowSight Individual
+
+> FlowSight Individual is a private productivity and focus tracker that uses local AI on the user's device.
+
+Canonical website: https://solo.flowsight.site
+Machine-readable pricing: https://solo.flowsight.site/pricing.md
+Company website: https://flowsight.site
+Security: https://flowsight.site/security
+Privacy: https://flowsight.site/privacy-policy
+Source code: https://github.com/Mancasvel/FlowSight.AI
+
+Core product facts:
+
+- FlowSight analyses screen context locally to identify focus, context-switching, and work patterns.
+- Raw screen context is not uploaded to a manager-facing activity feed.
+- Free local mode works without an account.
+- Optional paid cloud features include AI coaching, a weekly PDF digest, and longer history.
+- Desktop releases are published for Windows, macOS, and Linux.
+- FlowSight Individual is designed for the person doing the work, not for employee surveillance.
+
+Note: llms.txt is provided as optional machine-readable context. Google Search does not use it as a ranking signal.

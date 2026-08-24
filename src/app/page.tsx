@@ -2,6 +2,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { DownloadCenter, SmartDownload } from "@/components/download-experience";
 import { Footer } from "@/components/footer";
 import { HeroProduct } from "@/components/hero-product";
+import { IndividualSearchGuide } from "@/components/individual-search-guide";
 import {
   ClosingDownload,
   HowItWorks,
@@ -18,17 +19,71 @@ export const revalidate = 3600;
 
 export default async function Home() {
   const release = await getLatestRelease();
+  const organizationId = `${siteConfig.companyUrl}/#organization`;
+  const websiteId = absoluteUrl("/#website");
+  const applicationId = absoluteUrl("/#software");
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "FlowSight Individual",
-    applicationCategory: "BusinessApplication",
-    operatingSystem: "Windows 10, Windows 11, macOS 13+, Linux",
-    url: absoluteUrl("/"),
-    description: siteConfig.description,
-    offers: [
-      { "@type": "Offer", name: "Free", price: "0", priceCurrency: "EUR" },
-      { "@type": "Offer", name: "Individual Pro", price: "12", priceCurrency: "EUR" },
+    "@graph": [
+      {
+        "@id": organizationId,
+        "@type": "Organization",
+        name: siteConfig.name,
+        legalName: siteConfig.legalName,
+        url: siteConfig.companyUrl,
+        logo: {
+          "@type": "ImageObject",
+          url: `${siteConfig.companyUrl}/flowsight-icon-512.png`,
+          width: 512,
+          height: 512,
+        },
+        sameAs: siteConfig.sameAs,
+      },
+      {
+        "@id": websiteId,
+        "@type": "WebSite",
+        name: "FlowSight Individual",
+        url: absoluteUrl("/"),
+        description: siteConfig.description,
+        inLanguage: "en",
+        publisher: { "@id": organizationId },
+      },
+      {
+        "@id": absoluteUrl("/#webpage"),
+        "@type": "WebPage",
+        name: "FlowSight Individual: Private Focus & Productivity Tracker",
+        url: absoluteUrl("/"),
+        description: siteConfig.description,
+        isPartOf: { "@id": websiteId },
+        mainEntity: { "@id": applicationId },
+      },
+      {
+        "@id": applicationId,
+        "@type": "SoftwareApplication",
+        name: "FlowSight Individual",
+        alternateName: "FlowSight for Individuals",
+        applicationCategory: "BusinessApplication",
+        applicationSubCategory: "Personal productivity and focus analytics",
+        operatingSystem: ["Windows 10 or later", "macOS 13 or later", "Linux"],
+        url: absoluteUrl("/"),
+        description: siteConfig.description,
+        image: absoluteUrl("/opengraph-image"),
+        screenshot: absoluteUrl("/product/flowsight-summary.png"),
+        isAccessibleForFree: true,
+        featureList: [
+          "Local-first activity analysis",
+          "Deep-focus detection",
+          "Context-switching insights",
+          "Daily work summaries",
+          "Optional AI coaching and cloud history",
+        ],
+        audience: { "@type": "Audience", audienceType: "Individual knowledge workers, freelancers, and developers" },
+        publisher: { "@id": organizationId },
+        offers: [
+          { "@type": "Offer", name: "Free", price: "0", priceCurrency: "EUR", url: absoluteUrl("/") },
+          { "@type": "Offer", name: "Individual Pro", price: "12", priceCurrency: "EUR", url: `${siteConfig.appUrl}/dashboard/pricing?plan=individual_pro` },
+        ],
+      },
     ],
   };
 
@@ -46,12 +101,11 @@ export default async function Home() {
           <div className="mx-auto grid w-full max-w-[88rem] items-center gap-12 lg:grid-cols-[0.84fr_1.16fr] lg:gap-16 xl:gap-24">
             <div className="max-w-[40rem]">
               <p className="eyebrow">FlowSight for individuals</p>
-              <h1 className="mt-5 max-w-[15ch] text-balance font-heading text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[0.96] tracking-[-0.055em] text-[var(--ink)]">
-                <span className="block">See your work.</span>
-                <span className="block">Own your focus.</span>
+              <h1 className="mt-5 max-w-[15ch] text-balance font-heading text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[0.96] tracking-[-0.04em] text-[var(--ink)]">
+                A private focus tracker for real work.
               </h1>
               <p className="mt-6 max-w-[35rem] text-pretty text-base leading-7 text-[var(--muted)] sm:text-lg sm:leading-8">
-                Private work intelligence that turns your day into focus patterns, clear summaries, and proof you can use.
+                FlowSight uses local AI on your device to turn screen context into deep-work patterns, context-switching insight, daily summaries, and proof of work you control.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <SmartDownload release={release} className="w-full sm:w-auto" />
@@ -67,6 +121,7 @@ export default async function Home() {
 
         <SupportedBy />
         <DownloadCenter release={release} />
+        <IndividualSearchGuide />
         <IndividualOutcomes />
         <HowItWorks />
         <PrivacySection />
