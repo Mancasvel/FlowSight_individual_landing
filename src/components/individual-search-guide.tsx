@@ -51,9 +51,9 @@ export function IndividualSearchGuide() {
     <section id="private-productivity" className="border-y border-[var(--line)] bg-[var(--surface-soft)] px-5 py-20 sm:px-8 lg:py-28" aria-labelledby="private-tracker-heading">
       <div className="mx-auto max-w-[82rem]">
         <div className="grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:gap-20">
-          <h2 id="private-tracker-heading" className="max-w-[14ch] text-balance font-heading text-4xl font-semibold leading-[1.03] tracking-[-0.04em] text-[var(--ink)] sm:text-5xl">
+          <h1 id="private-tracker-heading" className="max-w-[14ch] text-balance font-heading text-4xl font-semibold leading-[1.03] tracking-[-0.04em] text-[var(--ink)] sm:text-5xl">
             What is a private productivity tracker?
-          </h2>
+          </h1>
           <div>
             <p className="max-w-2xl text-base leading-7 text-[var(--muted)]">
               A private productivity tracker helps you understand how your own work unfolds while keeping detailed activity under your control. FlowSight runs local AI on your device to interpret screen context, identify deep-work and context-switching patterns, and produce a daily work summary. Free local mode does not require an account, and cloud features stay optional.

@@ -4,8 +4,6 @@ import { siteConfig } from "@/lib/site";
 
 const links = [
   { label: "For teams", href: siteConfig.teamsUrl },
-  { label: "Blog", href: `${siteConfig.companyUrl}/blog` },
-  { label: "Documentation", href: `${siteConfig.companyUrl}/documentation` },
   { label: "GitHub", href: "https://github.com/Mancasvel/FlowSight.AI" },
   { label: "Security", href: `${siteConfig.companyUrl}/security` },
   { label: "Privacy", href: `${siteConfig.companyUrl}/privacy-policy` },

@@ -2,7 +2,6 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { DownloadCenter, SmartDownload } from "@/components/download-experience";
 import { Footer } from "@/components/footer";
 import { HeroProduct } from "@/components/hero-product";
-import { IndividualSearchGuide } from "@/components/individual-search-guide";
 import {
   ClosingDownload,
   HowItWorks,
@@ -101,11 +100,12 @@ export default async function Home() {
           <div className="mx-auto grid w-full max-w-[88rem] items-center gap-12 lg:grid-cols-[0.84fr_1.16fr] lg:gap-16 xl:gap-24">
             <div className="max-w-[40rem]">
               <p className="eyebrow">FlowSight for individuals</p>
-              <h1 className="mt-5 max-w-[15ch] text-balance font-heading text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[0.96] tracking-[-0.04em] text-[var(--ink)]">
-                A private focus tracker for real work.
+              <h1 className="mt-5 max-w-[15ch] text-balance font-heading text-[clamp(2.6rem,5vw,4.5rem)] font-semibold leading-[0.96] tracking-[-0.055em] text-[var(--ink)]">
+                <span className="block">See your work.</span>
+                <span className="block">Own your focus.</span>
               </h1>
               <p className="mt-6 max-w-[35rem] text-pretty text-base leading-7 text-[var(--muted)] sm:text-lg sm:leading-8">
-                FlowSight uses local AI on your device to turn screen context into deep-work patterns, context-switching insight, daily summaries, and proof of work you control.
+                Private work intelligence that turns your day into focus patterns, clear summaries, and proof you can use.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <SmartDownload release={release} className="w-full sm:w-auto" />
@@ -121,7 +121,6 @@ export default async function Home() {
 
         <SupportedBy />
         <DownloadCenter release={release} />
-        <IndividualSearchGuide />
         <IndividualOutcomes />
         <HowItWorks />
         <PrivacySection />

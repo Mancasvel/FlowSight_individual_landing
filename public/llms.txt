@@ -4,6 +4,7 @@
 
 Canonical website: https://solo.flowsight.site
 Machine-readable pricing: https://solo.flowsight.site/pricing.md
+Private productivity tracker guide: https://solo.flowsight.site/guides/private-productivity-tracker
 Company website: https://flowsight.site
 Security: https://flowsight.site/security
 Privacy: https://flowsight.site/privacy-policy
