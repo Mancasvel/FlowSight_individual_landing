@@ -26,4 +26,10 @@ The isolated worktree starts at `0123c932afa183d0dc1b6129100bde2fe9baf09f`, conf
 
 Project: `flowsight-individual`, `prj_fL0paIPYA6kaWCpFl5unWyw2s44Z`.
 
-Public target: <https://solo.flowsight.site>. Deployment result will be recorded after production verification.
+Public target: <https://solo.flowsight.site>.
+
+Feature commit `b5f698a` was pushed as a fast-forward to `origin/main` after confirming the remote still matched the exact base. Vercel's Git integration deployed it automatically to production as `dpl_3u32A7eeYUBaKUumsCohkyAhJ6qD`, <https://flowsight-individual-ii288egv6-mancasvels-projects.vercel.app>; status Ready, with the Solo public alias assigned.
+
+Production verification against <https://solo.flowsight.site> passed all four viewports: HTTP 200, all six exact partner names/order, loaded/contained logos, no page errors, no horizontal overflow. Captures from `artifacts/supported-by-production/solo-supported-by-{desktop,mobile,dark,mobile-dark}.png` were opened and visually inspected. The matching JSON report records the checks.
+
+The original `FlowSight_individual_landing` working tree remains at its prior HEAD with its original uncommitted work untouched. This feature lives in the isolated `FlowSight_supported_by_worktrees/solo` checkout and remote main.
