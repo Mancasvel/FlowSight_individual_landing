@@ -27,3 +27,5 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /artifacts/
+/.impeccable/review/
+/.vercel/
