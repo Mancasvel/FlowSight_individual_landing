@@ -1,6 +1,6 @@
 # FlowSight Individual landing
 
-Independent product landing page for the individual edition of FlowSight. It keeps the visual language of the Teams site while making the desktop download the primary journey.
+Independent product landing page for FlowSight Solo. The official app costs EUR 20 once, including applicable tax, for companies and self-employed professionals. Hosted Stripe Checkout requires business identity and a professional-use declaration.
 
 ## Run locally
 
@@ -16,6 +16,7 @@ Open `http://localhost:3000`.
 ```bash
 corepack pnpm lint
 corepack pnpm typecheck
+corepack pnpm test:purchase
 corepack pnpm build
 corepack pnpm run audit
 ```
@@ -35,3 +36,5 @@ GitHub responses use the Next.js data cache for one hour. Set `GITHUB_TOKEN` in 
 ## Deployment
 
 Set `NEXT_PUBLIC_SITE_URL` to the final canonical origin. Legal, account, and Teams links intentionally point to the existing FlowSight marketing and app origins, configurable through `.env.example`.
+
+See `PURCHASE_RUNBOOK.md` for the protected purchase service, Stripe webhook, license storage, recovery, and rollout settings. Server credentials remain in Vercel. Update the service deployment URL in the Solo project when publishing purchase-server changes.

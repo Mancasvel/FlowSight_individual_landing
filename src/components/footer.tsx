@@ -32,7 +32,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-9 max-w-[82rem] border-t border-[var(--line)] pt-6 text-xs text-[var(--muted)]">
-        © {new Date().getFullYear()} FlowSight Inc. All rights reserved.
+        © {new Date().getFullYear()} FlowSight.
       </div>
     </footer>
   );

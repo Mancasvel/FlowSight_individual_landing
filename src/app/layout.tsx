@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   applicationName: "FlowSight Individual",
   keywords: [...siteConfig.keywords],
-  authors: [{ name: siteConfig.legalName, url: siteConfig.companyUrl }],
-  creator: siteConfig.legalName,
-  publisher: siteConfig.legalName,
+  authors: [{ name: siteConfig.name, url: siteConfig.companyUrl }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
   category: "technology",
   icons: {
     icon: [{ url: "/flowsight-icon-32.png", sizes: "32x32", type: "image/png" }],

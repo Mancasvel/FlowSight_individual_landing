@@ -57,12 +57,12 @@ const structuredData = {
   image: absoluteUrl("/opengraph-image"),
   author: {
     "@type": "Organization",
-    name: siteConfig.legalName,
+    name: siteConfig.name,
     url: siteConfig.companyUrl,
   },
   publisher: {
     "@type": "Organization",
-    name: siteConfig.legalName,
+    name: siteConfig.name,
     url: siteConfig.companyUrl,
   },
 };
@@ -92,10 +92,10 @@ export default function PrivateProductivityTrackerGuidePage() {
             <span className="hidden border-l border-[var(--line-strong)] pl-2.5 text-xs font-semibold text-[var(--muted)] sm:inline">Individual</span>
           </Link>
           <Link
-            href="/#download"
+            href="/#offer"
             className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-[var(--ink)] px-4 text-sm font-semibold text-[var(--canvas)] transition-transform hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[var(--accent)]"
           >
-            Download
+            See the offer
             <ArrowRight className="h-4 w-4" weight="bold" aria-hidden />
           </Link>
         </div>

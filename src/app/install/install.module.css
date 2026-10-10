@@ -1,0 +1,57 @@
+.form {
+  display: grid;
+  gap: 1.3rem;
+  max-width: 34rem;
+  margin-top: 2.5rem;
+}
+
+.field { display: grid; gap: .55rem; }
+.field label { color: var(--ink); font-size: .88rem; font-weight: 800; }
+.field input, .field select {
+  width: 100%;
+  min-height: 52px;
+  padding: .8rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+.field input::placeholder { color: var(--muted); }
+.field input:focus-visible, .field select:focus-visible, .form button:focus-visible { outline: 3px solid #009f90; outline-offset: 3px; }
+.field small { color: var(--muted); font-size: .78rem; line-height: 1.55; }
+.form button {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .8rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  background: var(--dark);
+  color: #f4f9f7;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.form button:hover { background: #215154; }
+.error {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+  max-width: 34rem;
+  margin: 1.5rem 0 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff1df;
+  color: #663b0d;
+  font-size: .88rem;
+  line-height: 1.55;
+}
+.error svg { flex: none; margin-top: .1rem; }
+
+@media (prefers-color-scheme: dark) {
+  .error { background: #392b18; color: #f9d8ab; }
+}

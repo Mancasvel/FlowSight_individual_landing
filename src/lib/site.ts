@@ -1,12 +1,11 @@
 export const siteConfig = {
   name: "FlowSight",
-  legalName: "FlowSight Inc.",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://solo.flowsight.site").replace(/\/$/, ""),
   appUrl: (process.env.NEXT_PUBLIC_APP_URL || "https://app.flowsight.site").replace(/\/$/, ""),
   teamsUrl: "https://flowsight.site",
   companyUrl: (process.env.NEXT_PUBLIC_COMPANY_URL || "https://flowsight.site").replace(/\/$/, ""),
   description:
-    "Track deep work, context switches, and daily progress with private local AI. FlowSight runs on your device and starts free, with no account required.",
+    "Understand deep work, context switches, and daily progress with private local AI. FlowSight Individual runs on your device without a cloud account.",
   keywords: [
     "FlowSight Individual",
     "private productivity app",

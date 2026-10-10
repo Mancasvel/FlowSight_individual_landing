@@ -13,15 +13,24 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "test:purchase": "tsx --conditions=react-server --test src/lib/individual-purchase.test.ts src/lib/individual-purchase.server.test.ts src/lib/individual-license.test.ts src/lib/business-checkout.test.ts src/lib/individual-license-storage.test.ts",
+    "audit:purchase": "node scripts/audit-purchase.mjs",
     "capture": "node scripts/capture.mjs",
-    "audit": "node scripts/audit.mjs"
+    "audit": "node scripts/audit.mjs",
+    "audit:offer-preview": "node scripts/audit-offer-preview.mjs",
+    "audit:organization-dashboard": "node scripts/audit-organization-dashboard.mjs"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1141.0",
+    "@aws-sdk/s3-request-presigner": "^3.1141.0",
     "@phosphor-icons/react": "~2.1.10",
     "motion": "~13.1.1",
     "next": "~16.3.2",
     "react": "~19.2.8",
-    "react-dom": "~19.2.8"
+    "react-dom": "~19.2.8",
+    "resend": "~6.12.4",
+    "server-only": "0.0.1",
+    "stripe": "~20.4.1"
   },
   "devDependencies": {
     "@axe-core/playwright": "~4.13.0",
@@ -31,9 +40,10 @@
     "@types/react-dom": "~19.2.0",
     "eslint": "~9.39.4",
     "eslint-config-next": "~16.3.2",
-    "postcss": "~8.5.0",
     "playwright": "1.62.1",
+    "postcss": "~8.5.0",
     "tailwindcss": "~4.3.3",
+    "tsx": "~4.23.15",
     "typescript": "~5.9.3"
   }
 }
