@@ -27,7 +27,7 @@ const questions = [
   {
     question: "Can I use FlowSight without an account?",
     answer:
-      "Yes. Free local mode works without an account and includes local activity analysis, cognitive health tracking, deep-focus detection, and on-device pattern learning. An account is needed only when you choose paid cloud features.",
+      "Yes. Local mode works without a cloud account and includes activity analysis, cognitive health tracking, deep-focus detection, and on-device pattern learning. The official installer has a one-time launch offer; optional cloud plans are separate.",
   },
   {
     question: "Is FlowSight a time tracker?",
@@ -42,7 +42,7 @@ const questions = [
   {
     question: "Which platforms does FlowSight support?",
     answer:
-      "FlowSight publishes desktop releases for Windows, macOS, and Linux. The download centre detects your platform and also lets you choose another installer directly.",
+      "The offer page lists only platforms whose official installers and updates have been tested. Previously published builds remain available from the open-source releases during the transition; do not assume every platform is included in a purchase.",
   },
 ] as const;
 
@@ -56,7 +56,7 @@ export function IndividualSearchGuide() {
           </h1>
           <div>
             <p className="max-w-2xl text-base leading-7 text-[var(--muted)]">
-              A private productivity tracker helps you understand how your own work unfolds while keeping detailed activity under your control. FlowSight runs local AI on your device to interpret screen context, identify deep-work and context-switching patterns, and produce a daily work summary. Free local mode does not require an account, and cloud features stay optional.
+              A private productivity tracker helps you understand how your own work unfolds while keeping detailed activity under your control. FlowSight runs local AI on your device to interpret screen context, identify deep-work and context-switching patterns, and produce a daily work summary. Local use does not require a cloud account, and cloud features stay optional. The official installer has a €20 one-time offer with local updates included; check the current availability before buying.
             </p>
             <p className="mt-5 max-w-2xl text-sm leading-6 text-[var(--muted)]">
               The core implementation is <a href="https://github.com/Mancasvel/FlowSight.AI" target="_blank" rel="noopener noreferrer" className="font-semibold text-[var(--ink)] underline decoration-[var(--line-strong)] underline-offset-4 hover:text-[var(--accent-strong)]">available to inspect on GitHub</a>. For the company-wide privacy model, read FlowSight&apos;s <a href={`${siteConfig.companyUrl}/security`} className="font-semibold text-[var(--ink)] underline decoration-[var(--line-strong)] underline-offset-4 hover:text-[var(--accent-strong)]">security overview</a>.
