@@ -6,6 +6,7 @@ import { isSoloOfferCheckoutConfigured } from "@/lib/solo-offer";
 import { siteConfig } from "@/lib/site";
 import { ContextDemo, ProductExplorer } from "@/components/solo-demo";
 import { ProductCapabilities } from "@/components/product-capabilities";
+import { AppGuide } from "@/components/app-guide";
 import styles from "./preview.module.css";
 
 /* THESIS: Demonstrate private work intelligence through context.
@@ -69,6 +70,7 @@ export default function OfferPreview() {
             <div className={styles.heroActions}>
               <a className={styles.primaryAction} href="#product">Explore the app <ArrowDown size={18} aria-hidden /></a>
               <a className={styles.textAction} href="#offer">€25, once <ArrowUpRight size={17} aria-hidden /></a>
+              <a className={styles.textAction} href="#app-guide">Watch the guide <ArrowDown size={17} aria-hidden /></a>
             </div>
             <div className={styles.platforms} aria-label="For Windows, macOS and Linux"><Monitor size={17} aria-hidden /><AppleLogo size={18} aria-hidden /><LinuxLogo size={18} aria-hidden /><span>One local edition. Three platforms.</span></div>
             {!checkoutOpen && <p className={styles.availability}>Planned one-time offer. Checkout not open yet.</p>}
@@ -80,6 +82,7 @@ export default function OfferPreview() {
           <span><LockSimple size={19} aria-hidden /> No account for local use</span>
           <a href={sourceUrl} target="_blank" rel="noopener noreferrer"><GithubLogo size={19} aria-hidden /> Open source, by design <ArrowUpRight size={14} aria-hidden /></a>
         </div>
+        <AppGuide />
         <section id="product" className={styles.productSection} aria-labelledby="product-title"><ProductExplorer /></section>
         <ProductCapabilities />
         <section id="difference" className={styles.comparisonSection} aria-labelledby="difference-title">

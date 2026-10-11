@@ -108,6 +108,18 @@
 .comparisonSection { padding-block: 97px 95px; }
 .sectionIntro { display: grid; grid-template-columns: 1fr 1fr; gap: 112px; align-items: end; }
 .sectionIntro p { max-width: 42ch; padding-bottom: 5px; font-size: 15px; line-height: 1.8; color: var(--solo-muted); }
+.guideSection { width: var(--solo-width); margin-inline: auto; padding-block: 80px 40px; }
+.guideVideo { display: block; width: 100%; aspect-ratio: 16 / 9; margin-top: 40px; background: #112e31; border-radius: 12px; }
+.guideVideo:focus-visible { outline: 2px solid var(--solo-accent); outline-offset: 5px; }
+.guideDetails { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-top: 18px; }
+.guideDetails p { max-width: 72ch; font-size: 12px; line-height: 1.7; color: var(--solo-muted); }
+.guideDetails a { flex-shrink: 0; font-size: 12px; line-height: 1.7; text-decoration: underline; padding-block: 9px; }
+.guideDetails a:hover { color: var(--solo-accent); }
+@media (max-width: 800px) {
+  .guideSection { padding-block: 60px 20px; }
+  .guideVideo { margin-top: 28px; }
+  .guideDetails { align-items: flex-start; flex-direction: column; gap: 4px; margin-top: 14px; }
+}
 .comparisonWrap { margin-top: 52px; }
 .comparison { width: 100%; border-collapse: collapse; text-align: left; table-layout: fixed; font-size: 13px; }
 .comparison thead th { font-size: 18px; font-weight: 550; padding: 23px 25px; }
