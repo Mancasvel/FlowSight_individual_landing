@@ -23,7 +23,18 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 const sourceUrl = "https://github.com/Mancasvel/FlowSight.AI";
-const launchEmail = "mailto:manuel@flowsight.site?subject=FlowSight%20Solo%20%E2%82%AC25%20offer";
+const launchEmailSubject = "I'm interested in FlowSight Solo (€25)";
+const launchEmailBody = [
+  "Hi Manuel,",
+  "",
+  "I'm interested in FlowSight Solo and the planned €25 one-time local edition.",
+  "",
+  "Could you let me know when it will be available and how I can purchase it?",
+  "Please notify me at this email address when the offer opens.",
+  "",
+  "Thank you!",
+].join("\r\n");
+const launchEmail = `mailto:manuel@flowsight.site?subject=${encodeURIComponent(launchEmailSubject)}&body=${encodeURIComponent(launchEmailBody)}`;
 const comparisons = [
   { label: "Understand the activity", competitors: "App, website or timer-based tracking", solo: "Screen context analysed with local AI" },
   { label: "Make sense of the work", competitors: "Categories and dashboards vary by tool", solo: "Work categories, sustained focus and report insights" },
