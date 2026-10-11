@@ -15,7 +15,7 @@ export function AppGuide() {
         controls
         playsInline
         preload="none"
-        poster="/product/flowsight-complete-guide.jpg"
+        poster="/product/flowsight-complete-guide.jpg?v=29da242ef4d6"
         aria-label="FlowSight complete app guide"
         aria-describedby="app-guide-description app-guide-note"
       >

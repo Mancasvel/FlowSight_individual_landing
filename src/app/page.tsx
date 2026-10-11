@@ -46,7 +46,7 @@ export default function Home() {
         "@type": "VideoObject",
         name: "FlowSight Complete App Guide",
         description: "A tour of FlowSight: task tracking, Pomodoro, local AI planning, Total Focus, Insights, reports, optional Cloud, MCP and privacy controls.",
-        thumbnailUrl: absoluteUrl("/product/flowsight-complete-guide.jpg"),
+        thumbnailUrl: absoluteUrl("/product/flowsight-complete-guide.jpg?v=29da242ef4d6"),
         contentUrl: "https://mancasvel.github.io/flowsight-guides/assets/complete-guide/FlowSight-Complete-Guide-EN.mp4?v=6f5b7d037cfc",
         uploadDate: "2026-10-11T14:49:27Z",
         duration: "PT1M30S",
