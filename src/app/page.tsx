@@ -1,26 +1,26 @@
 import type { Metadata } from "next";
 import IndividualOfferPage from "./offer-preview/page";
-import { INDIVIDUAL_PRICE_EUROS, isIndividualCheckoutConfigured } from "@/lib/individual-purchase";
+import { isSoloOfferCheckoutConfigured } from "@/lib/solo-offer";
 import { absoluteUrl, siteConfig } from "@/lib/site";
 import summaryCapture from "../../public/product/flowsight-summary.png";
 
 export const dynamic = "force-dynamic";
 
 export function generateMetadata(): Metadata {
-  const checkoutOpen = isIndividualCheckoutConfigured();
+  const checkoutOpen = isSoloOfferCheckoutConfigured();
   return {
     title: checkoutOpen
-      ? "FlowSight Individual — €20 total once, local updates included"
-      : "FlowSight Individual — €20 one-time offer",
+      ? "FlowSight Solo | Local AI. €25 once."
+      : "FlowSight Solo | Understand your work with local AI",
     description: checkoutOpen
-      ? "See where your day went with private, local-first AI. One €20 payment covers the official Windows, macOS and Linux installers, with local updates included."
-      : "Explore the real FlowSight Individual app. One €20 payment will cover Windows, macOS and Linux, with local updates included; checkout is not open yet.",
+      ? "See where your day went with private, local-first AI. One €25 payment covers the official Windows, macOS and Linux installers, with local updates included."
+      : "Understand your work with private local AI, focus insights and daily summaries. Explore the app and the planned €25 one-time edition for Windows, macOS and Linux.",
     alternates: { canonical: absoluteUrl("/") },
   };
 }
 
 export default function Home() {
-  const checkoutOpen = isIndividualCheckoutConfigured();
+  const checkoutOpen = isSoloOfferCheckoutConfigured();
   const organizationId = `${siteConfig.companyUrl}/#organization`;
   const applicationId = absoluteUrl("/#software");
   const structuredData = {
@@ -53,7 +53,7 @@ export default function Home() {
         screenshot: absoluteUrl(summaryCapture.src),
         featureList: ["Local-first activity analysis", "Deep-focus detection", "Daily work summaries"],
         publisher: { "@id": organizationId },
-        ...(checkoutOpen ? { offers: { "@type": "Offer", name: "Official local installer for companies and self-employed professionals", price: String(INDIVIDUAL_PRICE_EUROS), priceCurrency: "EUR", url: absoluteUrl("/#offer") } } : {}),
+        ...(checkoutOpen ? { offers: { "@type": "Offer", name: "Official local installer", price: "25", priceCurrency: "EUR", url: absoluteUrl("/#offer") } } : {}),
       },
     ],
   };

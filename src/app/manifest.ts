@@ -8,7 +8,7 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: "/",
     display: "standalone",
     background_color: "#fbfcfb",
-    theme_color: "#008f84",
+    theme_color: "#fbfcfb",
     icons: [
       { src: "/flowsight-icon-192.png", sizes: "192x192", type: "image/png" },
       { src: "/flowsight-icon-512.png", sizes: "512x512", type: "image/png" },

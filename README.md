@@ -1,6 +1,6 @@
 # FlowSight Individual landing
 
-Independent product landing page for FlowSight Solo. The official app costs EUR 20 once, including applicable tax, for companies and self-employed professionals. Hosted Stripe Checkout requires business identity and a professional-use declaration.
+Independent product landing page for FlowSight Solo. The new white/grid landing presents the owner's planned EUR 25 one-time offer, current app captures, a calendar example and a weekly report example. Its checkout remains closed while the existing purchase service uses EUR 20. The existing business purchase, recovery and licensing services are preserved.
 
 ## Run locally
 
@@ -17,11 +17,14 @@ Open `http://localhost:3000`.
 corepack pnpm lint
 corepack pnpm typecheck
 corepack pnpm test:purchase
+corepack pnpm test:offer
 corepack pnpm build
 corepack pnpm run audit
 ```
 
 With the local server on port 3020, `corepack pnpm capture` writes desktop, mobile, and dark-mode review images to the ignored `artifacts/` directory.
+
+Run `BASE_URL=<local server> corepack pnpm run audit` for the Solo landing checks. The landing shares its implementation with the noindex `/offer-preview` route. `src/lib/solo-offer.ts` keeps the new offer closed even when the previous EUR 20 service is configured. Opening sales at EUR 25 requires the backend catalogue, Stripe price and business purchase flow to agree; the existing server configuration checks still apply.
 
 ## Release downloads
 

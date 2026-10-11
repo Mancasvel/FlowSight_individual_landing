@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T13:29:22.622Z",
+  "title": "Design System: FlowSight Solo",
+  "extensions": {
+    "colorMeta": {
+      "solo-bg": {
+        "role": "neutral",
+        "displayName": "White ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0017 145.56)",
+          "oklch(26.43% 0.0017 145.56)",
+          "oklch(37.86% 0.0017 145.56)",
+          "oklch(49.29% 0.0017 145.56)",
+          "oklch(60.71% 0.0017 145.56)",
+          "oklch(72.14% 0.0017 145.56)",
+          "oklch(83.57% 0.0017 145.56)",
+          "oklch(95.00% 0.0017 145.56)"
+        ]
+      },
+      "solo-panel": {
+        "role": "neutral",
+        "displayName": "Slate panel",
+        "tonalRamp": [
+          "oklch(15.00% 0.0069 247.90)",
+          "oklch(26.43% 0.0069 247.90)",
+          "oklch(37.86% 0.0069 247.90)",
+          "oklch(49.29% 0.0069 247.90)",
+          "oklch(60.71% 0.0069 247.90)",
+          "oklch(72.14% 0.0069 247.90)",
+          "oklch(83.57% 0.0069 247.90)",
+          "oklch(95.00% 0.0069 247.90)"
+        ]
+      },
+      "solo-card": {
+        "role": "neutral",
+        "displayName": "White card",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "solo-ink": {
+        "role": "neutral",
+        "displayName": "Navy ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0398 265.75)",
+          "oklch(26.43% 0.0398 265.75)",
+          "oklch(37.86% 0.0398 265.75)",
+          "oklch(49.29% 0.0398 265.75)",
+          "oklch(60.71% 0.0398 265.75)",
+          "oklch(72.14% 0.0398 265.75)",
+          "oklch(83.57% 0.0398 265.75)",
+          "oklch(95.00% 0.0398 265.75)"
+        ]
+      },
+      "solo-muted": {
+        "role": "neutral",
+        "displayName": "Slate copy",
+        "tonalRamp": [
+          "oklch(15.00% 0.0386 256.82)",
+          "oklch(26.43% 0.0386 256.82)",
+          "oklch(37.86% 0.0386 256.82)",
+          "oklch(49.29% 0.0386 256.82)",
+          "oklch(60.71% 0.0386 256.82)",
+          "oklch(72.14% 0.0386 256.82)",
+          "oklch(83.57% 0.0386 256.82)",
+          "oklch(95.00% 0.0386 256.82)"
+        ]
+      },
+      "solo-line": {
+        "role": "neutral",
+        "displayName": "Fine outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.0126 255.51)",
+          "oklch(26.43% 0.0126 255.51)",
+          "oklch(37.86% 0.0126 255.51)",
+          "oklch(49.29% 0.0126 255.51)",
+          "oklch(60.71% 0.0126 255.51)",
+          "oklch(72.14% 0.0126 255.51)",
+          "oklch(83.57% 0.0126 255.51)",
+          "oklch(95.00% 0.0126 255.51)"
+        ]
+      },
+      "solo-accent": {
+        "role": "primary",
+        "displayName": "Accessible teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0896 186.65)",
+          "oklch(26.43% 0.0896 186.65)",
+          "oklch(37.86% 0.0896 186.65)",
+          "oklch(49.29% 0.0896 186.65)",
+          "oklch(60.71% 0.0896 186.65)",
+          "oklch(72.14% 0.0896 186.65)",
+          "oklch(83.57% 0.0896 186.65)",
+          "oklch(95.00% 0.0896 186.65)"
+        ]
+      },
+      "solo-brand": {
+        "role": "primary",
+        "displayName": "Brand teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.1242 184.62)",
+          "oklch(26.43% 0.1242 184.62)",
+          "oklch(37.86% 0.1242 184.62)",
+          "oklch(49.29% 0.1242 184.62)",
+          "oklch(60.71% 0.1242 184.62)",
+          "oklch(72.14% 0.1242 184.62)",
+          "oklch(83.57% 0.1242 184.62)",
+          "oklch(95.00% 0.1242 184.62)"
+        ]
+      },
+      "solo-tint": {
+        "role": "primary",
+        "displayName": "Teal tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.0189 200.87)",
+          "oklch(26.43% 0.0189 200.87)",
+          "oklch(37.86% 0.0189 200.87)",
+          "oklch(49.29% 0.0189 200.87)",
+          "oklch(60.71% 0.0189 200.87)",
+          "oklch(72.14% 0.0189 200.87)",
+          "oklch(83.57% 0.0189 200.87)",
+          "oklch(95.00% 0.0189 200.87)"
+        ]
+      },
+      "solo-on-accent": {
+        "role": "primary",
+        "displayName": "White on accent",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "image-surround": {
+        "role": "neutral",
+        "displayName": "Image surround",
+        "tonalRamp": [
+          "oklch(15.00% 0.0127 196.95)",
+          "oklch(26.43% 0.0127 196.95)",
+          "oklch(37.86% 0.0127 196.95)",
+          "oklch(49.29% 0.0127 196.95)",
+          "oklch(60.71% 0.0127 196.95)",
+          "oklch(72.14% 0.0127 196.95)",
+          "oklch(83.57% 0.0127 196.95)",
+          "oklch(95.00% 0.0127 196.95)"
+        ]
+      },
+      "grid-line": {
+        "role": "neutral",
+        "displayName": "Grid line",
+        "tonalRamp": [
+          "oklch(15.00% 0.0398 265.75)",
+          "oklch(26.43% 0.0398 265.75)",
+          "oklch(37.86% 0.0398 265.75)",
+          "oklch(49.29% 0.0398 265.75)",
+          "oklch(60.71% 0.0398 265.75)",
+          "oklch(72.14% 0.0398 265.75)",
+          "oklch(83.57% 0.0398 265.75)",
+          "oklch(95.00% 0.0398 265.75)"
+        ]
+      },
+      "calendar-review": {
+        "role": "primary",
+        "displayName": "Calendar review tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.0173 183.54)",
+          "oklch(26.43% 0.0173 183.54)",
+          "oklch(37.86% 0.0173 183.54)",
+          "oklch(49.29% 0.0173 183.54)",
+          "oklch(60.71% 0.0173 183.54)",
+          "oklch(72.14% 0.0173 183.54)",
+          "oklch(83.57% 0.0173 183.54)",
+          "oklch(95.00% 0.0173 183.54)"
+        ]
+      },
+      "example-deep-teal": {
+        "role": "primary",
+        "displayName": "Deep example teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0738 187.13)",
+          "oklch(26.43% 0.0738 187.13)",
+          "oklch(37.86% 0.0738 187.13)",
+          "oklch(49.29% 0.0738 187.13)",
+          "oklch(60.71% 0.0738 187.13)",
+          "oklch(72.14% 0.0738 187.13)",
+          "oklch(83.57% 0.0738 187.13)",
+          "oklch(95.00% 0.0738 187.13)"
+        ]
+      },
+      "report-other": {
+        "role": "neutral",
+        "displayName": "Other recorded time",
+        "tonalRamp": [
+          "oklch(15.00% 0.0125 215.83)",
+          "oklch(26.43% 0.0125 215.83)",
+          "oklch(37.86% 0.0125 215.83)",
+          "oklch(49.29% 0.0125 215.83)",
+          "oklch(60.71% 0.0125 215.83)",
+          "oklch(72.14% 0.0125 215.83)",
+          "oklch(83.57% 0.0125 215.83)",
+          "oklch(95.00% 0.0125 215.83)"
+        ]
+      },
+      "report-suggestion": {
+        "role": "primary",
+        "displayName": "Report suggestion tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.0123 178.03)",
+          "oklch(26.43% 0.0123 178.03)",
+          "oklch(37.86% 0.0123 178.03)",
+          "oklch(49.29% 0.0123 178.03)",
+          "oklch(60.71% 0.0123 178.03)",
+          "oklch(72.14% 0.0123 178.03)",
+          "oklch(83.57% 0.0123 178.03)",
+          "oklch(95.00% 0.0123 178.03)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero display",
+        "purpose": "Primary promise; responsive values follow the landing CSS."
+      },
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Large section headings, including planning and weekly reports."
+      },
+      "body": {
+        "displayName": "Section body",
+        "purpose": "Supporting explanations with generous leading."
+      },
+      "control": {
+        "displayName": "Primary controls",
+        "purpose": "Filled actions and compact controls."
+      },
+      "duration": {
+        "displayName": "Diagram durations",
+        "purpose": "Compact context durations and weekly chart scale; calendar hours use 10px Geist Mono."
+      },
+      "example-title": {
+        "displayName": "Example title",
+        "purpose": "Calendar and report header; 12px on mobile."
+      },
+      "report-metric": {
+        "displayName": "Report metric",
+        "purpose": "Tabular report totals; 23px on mobile."
+      },
+      "example-body": {
+        "displayName": "Example body",
+        "purpose": "Calendar intention and report observations."
+      },
+      "example-label": {
+        "displayName": "Example label",
+        "purpose": "Calendar/report metadata and day labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "product-window",
+        "value": "0 16px 45px rgb(22 44 31 / .10)",
+        "purpose": "The full Today/Insights app window on its pale teal surround."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-colour",
+        "value": "color 160ms, background-color 160ms, border-color 160ms",
+        "purpose": "Link and button states."
+      },
+      {
+        "name": "selected-tab-arrow",
+        "value": "transform 160ms, opacity 160ms",
+        "purpose": "Reveal the selected product tab's trailing arrow."
+      },
+      {
+        "name": "hero-arrival",
+        "value": "650ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Hero copy moves from translateY(14px) to zero."
+      },
+      {
+        "name": "context-arrival",
+        "value": "850ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Context card moves from translateY(14px) to zero."
+      },
+      {
+        "name": "dot-resolve",
+        "value": "380ms cubic-bezier(.16, 1, .3, 1); delay: calc(var(--dot-order) * 20ms)",
+        "purpose": "Selected filled dots resolve from scale(.65) to one."
+      },
+      {
+        "name": "dot-state",
+        "value": "background-color 250ms, opacity 250ms",
+        "purpose": "Diagram selection and activity view states."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none; scroll-behavior: auto",
+        "purpose": "Immediate state updates and anchor navigation under prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "faq-disclosure",
+        "value": "transform 160ms; open: rotate(45deg)",
+        "purpose": "Phosphor Plus SVG in FAQ disclosures. Tool disclosure Plus also rotates 45deg, without this transition."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "stacked-hero",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      }
+    ],
+    "layout": {
+      "canvas": "Content-aligned 56px square grid; background-position: calc((100vw - var(--solo-width)) / 2) 0.",
+      "container": "min(1120px, calc(100vw - 112px)); calc(100vw - 64px) at 1100px; calc(100vw - 40px) at 600px.",
+      "desktop": "At maximum width: 504px + 112px + 504px, spanning twenty grid cells.",
+      "responsive": "Hero, calendar and report stories stack at 800px; app and offer stack at 600px. Report restores copy-first DOM order.",
+      "separation": "Grid and whitespace separate page sections and rows; retain contained outlines, selected-state markers and calendar hour rules."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Navy explore action with an accessible teal hover and clear keyboard focus.",
+      "html": "<a class=\"ds-primary\" href=\"#product\">Explore the app <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M128 40v176M56 144l72 72 72-72\"/></svg></a>",
+      "css": ".ds-primary{font-family:var(--font-display, Geist),sans-serif;display:inline-flex;min-height:51px;align-items:center;justify-content:center;gap:28px;background:#0f172a;color:#fbfcfb;border:0;border-radius:5px;padding:13px 20px;font-size:13px;font-weight:550;text-decoration:none;transition:color 160ms,background-color 160ms,border-color 160ms;}.ds-primary:hover{background:#00776f;color:#ffffff;}.ds-primary:active{transform:translateY(1px);}.ds-primary:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Outlined header action",
+      "kind": "button",
+      "refersTo": "button-outlined",
+      "description": "White header action with a fine rule, teal tint on hover and a 44px minimum height.",
+      "html": "<a class=\"ds-outlined\" href=\"#offer\">Get FlowSight <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 64h128v128M192 64 64 192\"/></svg></a>",
+      "css": ".ds-outlined{font-family:var(--font-display, Geist),sans-serif;display:inline-flex;min-height:44px;align-items:center;gap:20px;padding:10px 15px;border:1px solid #e2e8f0;background:#ffffff;color:#0f172a;border-radius:8px;font-size:12px;font-weight:550;text-decoration:none;transition:color 160ms,background-color 160ms,border-color 160ms;}.ds-outlined:hover{background:#ecfeff;border-color:#00776f;}.ds-outlined:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-outlined{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Offer action",
+      "kind": "button",
+      "refersTo": "button-offer",
+      "description": "The current availability action fills the price panel and remains navy on hover.",
+      "html": "<a class=\"ds-offer\" href=\"mailto:manuel@flowsight.site?subject=FlowSight%20Solo%20%E2%82%AC25%20offer\">Ask about availability <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 64h128v128M192 64 64 192\"/></svg></a>",
+      "css": ".ds-offer{font-family:var(--font-display, Geist),sans-serif;display:inline-flex;width:100%;min-height:51px;align-items:center;justify-content:space-between;gap:28px;padding:13px 20px;border:0;border-radius:5px;background:#0f172a;color:#ffffff;font-size:13px;font-weight:550;text-decoration:none;transition:color 160ms,background-color 160ms,border-color 160ms;}.ds-offer:hover{background:#0f172a;color:#fbfcfb;}.ds-offer:active{transform:translateY(1px);}.ds-offer:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-offer{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "description": "Compact anchor navigation reduces to Why FlowSight on small screens.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#product\">The app</a><a href=\"#features\">Features</a><a href=\"#reports\">Reports</a><a href=\"#difference\">Why FlowSight</a></nav>",
+      "css": ".ds-nav{font-family:var(--font-display, Geist),sans-serif;display:flex;align-items:center;gap:30px;font-size:13px;color:#526176;}.ds-nav a{padding-block:14px;color:inherit;text-decoration:none;transition:color 160ms;}.ds-nav a:hover{color:#00776f;}.ds-nav a:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(max-width:800px){.ds-nav{gap:16px;font-size:12px;}}@media(max-width:600px){.ds-nav{gap:0;}.ds-nav a{display:none;}.ds-nav a[href=\"#difference\"]{display:inline-flex;align-items:center;min-height:44px;font-size:11px;}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Context view switch",
+      "kind": "custom",
+      "description": "Pressed-state buttons compare app activity with the selected FlowSight AI view.",
+      "html": "<div class=\"ds-switch\" role=\"group\" aria-label=\"Compare activity views\"><button type=\"button\" aria-pressed=\"false\">App activity</button><button type=\"button\" aria-pressed=\"true\">With FlowSight AI <svg width=\"14\" height=\"14\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 64h128v128M192 64 64 192\"/></svg></button></div>",
+      "css": ".ds-switch{font-family:var(--font-display, Geist),sans-serif;display:grid;grid-template-columns:1fr 1fr;gap:3px;border-radius:5px;background:#f1f5f9;padding:4px;}.ds-switch button{font-family:var(--font-display, Geist),sans-serif;display:flex;justify-content:center;align-items:center;gap:8px;min-height:40px;border:0;border-radius:3px;background:transparent;color:#526176;font-size:11px;cursor:pointer;transition:color 160ms,background-color 160ms,border-color 160ms;}.ds-switch button[aria-pressed=\"true\"]{background:#0f172a;color:#fbfcfb;}.ds-switch button[aria-pressed=\"false\"]:hover{background:#e2e8f0;color:#0f172a;}.ds-switch button:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-switch button{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Context result card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The initial illustrative result on a slate panel, within a white card and the landing's 56px technical field.",
+      "html": "<div class=\"ds-context-field\"><article class=\"ds-context-card\"><div class=\"ds-context-top\"><span>Same app. More context.</span><span>Interactive example</span></div><div class=\"ds-result\"><div class=\"ds-result-title\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m64 88-48 40 48 40m128-80 48 40-48 40M160 40 96 216\"/></svg><span>Development</span><span>52 min</span></div><p class=\"ds-result-heading\">Debugging a checkout flow</p><p class=\"ds-result-detail\">Testing the payment flow and reading API documentation belong to the same piece of work.</p></div><div class=\"ds-context-footer\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"40\" y=\"88\" width=\"176\" height=\"128\" rx=\"8\"/><path d=\"M88 88V56a40 40 0 0 1 80 0v32\"/></svg><span>On-device analysis</span><span>Illustrative data, not a live AI session</span></div></article></div>",
+      "css": ".ds-context-field{background-color:#fbfcfb;background-image:linear-gradient(to right,rgb(15 23 42 / .042) 1px,transparent 1px),linear-gradient(to bottom,rgb(15 23 42 / .042) 1px,transparent 1px);background-size:56px 56px;padding:25px;}.ds-context-card{font-family:var(--font-display, Geist),sans-serif;border:1px solid #e2e8f0;background:#ffffff;color:#0f172a;border-radius:12px;padding:25px;}.ds-context-top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;font-weight:550;}.ds-context-top>span:last-child{color:#526176;font-size:10px;font-weight:400;}.ds-result{margin-top:24px;background:#f1f5f9;border-radius:5px;padding:17px 18px 19px;min-height:150px;}.ds-result-title{display:flex;align-items:center;gap:7px;color:#00776f;font-size:10px;}.ds-result-title>span:last-child{margin-left:auto;font-family:var(--font-solo-mono,\"Geist Mono\"),monospace;color:#526176;}.ds-result-heading{font-size:15px;font-weight:520;letter-spacing:-.015em;margin:13px 0 0;}.ds-result-detail{font-size:11px;line-height:1.7;color:#526176;max-width:45ch;margin:7px 0 0;}.ds-context-footer{display:flex;align-items:center;flex-wrap:wrap;gap:5px;padding-top:16px;color:#526176;font-size:9px;}.ds-context-footer>span:last-child{margin-left:auto;font-size:8px;}@media(max-width:600px){.ds-context-card{padding:18px;}.ds-context-top{font-size:11px;}.ds-context-top>span:last-child{font-size:9px;}.ds-context-footer>span:last-child{width:100%;margin-left:19px;}}"
+    },
+    {
+      "name": "Product tabs",
+      "kind": "custom",
+      "description": "Open product choices use teal text and a trailing arrow for the selected Insights view.",
+      "html": "<div class=\"ds-product-tabs\" role=\"tablist\" aria-label=\"Explore the real app\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" tabindex=\"0\"><span>Understand your day</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M40 128h176M144 56l72 72-72 72\"/></svg></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\"><span>Shape your day</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M40 128h176M144 56l72 72-72 72\"/></svg></button></div>",
+      "css": ".ds-product-tabs{font-family:var(--font-display, Geist),sans-serif;display:flex;flex-direction:column;}.ds-product-tabs button{font-family:var(--font-display, Geist),sans-serif;display:flex;align-items:center;gap:13px;min-height:61px;padding:12px 0;border:0;background:transparent;color:#526176;font-size:14px;text-align:left;cursor:pointer;transition:color 160ms;}.ds-product-tabs button svg{margin-left:auto;opacity:0;transform:translateX(-5px);transition:transform 160ms,opacity 160ms;}.ds-product-tabs button[aria-selected=\"true\"]{color:#00776f;}.ds-product-tabs button[aria-selected=\"true\"] svg{opacity:1;transform:none;}.ds-product-tabs button:hover{color:#00776f;}.ds-product-tabs button:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-product-tabs button,.ds-product-tabs button svg{transition:none;animation:none;}}"
+    },
+    {
+      "name": "FAQ disclosure",
+      "kind": "custom",
+      "description": "Native details use open spacing, generous leading and a Phosphor Plus SVG that rotates when open.",
+      "html": "<details class=\"ds-faq\"><summary>Does the AI need the cloud?<svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z\"/></svg></summary><p>No. The local edition includes a model that analyses sensitive screen context on your device. Optional cloud services and connections to external AI are separate choices and can send selected data to those services.</p></details>",
+      "css": ".ds-faq{font-family:var(--font-display, Geist),sans-serif;color:#0f172a;}.ds-faq summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:67px;font-size:14px;list-style:none;cursor:pointer;}.ds-faq summary::-webkit-details-marker{display:none;}.ds-faq summary svg{flex-shrink:0;color:#526176;transition:transform 160ms;}.ds-faq[open] summary svg{transform:rotate(45deg);}.ds-faq summary:hover{color:#00776f;}.ds-faq p{margin:0;padding:0 25px 25px 0;color:#526176;font-size:13px;line-height:1.9;}.ds-faq summary:focus-visible{outline:2px solid #00776f;outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-faq summary svg{transition:none;animation:none;}}"
+    },
+    {
+      "name": "Illustrative calendar",
+      "kind": "custom",
+      "refersTo": "example-card",
+      "description": "Static website calendar with suggested focus/review blocks and an existing event; not the app UI or a live plan.",
+      "html": "<figure class=\"ds-calendar-example\" aria-label=\"Example session plan for Tuesday, 13 October\"><div class=\"ds-example-header\"><span><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"40\" y=\"40\" width=\"176\" height=\"184\" rx=\"8\"/><path d=\"M176 24v32M80 24v32M40 88h176\"/></svg> Your day, with a plan</span><span>October 2026</span></div><div class=\"ds-calendar-week\" aria-label=\"Week of 12 October\"><div data-selected=\"false\"><span>Mon</span><strong>12</strong></div><div data-selected=\"true\"><span>Tue</span><strong>13</strong></div><div data-selected=\"false\"><span>Wed</span><strong>14</strong></div><div data-selected=\"false\"><span>Thu</span><strong>15</strong></div><div data-selected=\"false\"><span>Fri</span><strong>16</strong></div></div><div class=\"ds-plan-intention\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m128 24 29 75 75 29-75 29-29 75-29-75-75-29 75-29ZM216 16v32M200 32h32\"/></svg><p>“Finish the proposal before my 11:00 call.”<span>An example intention for the local AI</span></p></div><div class=\"ds-calendar-timeline\"><div class=\"ds-calendar-hour\" style=\"--hour:0\"><time>09:00</time><span></span></div><div class=\"ds-calendar-hour\" style=\"--hour:1\"><time>10:00</time><span></span></div><div class=\"ds-calendar-hour\" style=\"--hour:2\"><time>11:00</time><span></span></div><div class=\"ds-calendar-hour\" style=\"--hour:3\"><time>12:00</time><span></span></div><div class=\"ds-calendar-event\" data-kind=\"focus\" style=\"--start:0;--duration:50\"><span>09:00 – 09:50 · Suggested</span><strong>Draft the proposal</strong><small>One task. Fifty clear minutes.</small></div><div class=\"ds-calendar-break\"><span>09:50</span> Take a short break</div><div class=\"ds-calendar-event\" data-kind=\"review\" style=\"--start:60;--duration:30\"><span>10:00 – 10:30 · Suggested</span><strong>Review &amp; refine</strong></div><div class=\"ds-calendar-event\" data-kind=\"fixed\" style=\"--start:120;--duration:30\"><span>11:00 – 11:30 · Existing event</span><strong>Team check-in</strong></div></div><div class=\"ds-calendar-summary\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"128\" cy=\"128\" r=\"96\"/><path d=\"M128 72v56h56\"/></svg><span>80 min of planned work</span><span>Ready for your review</span></div><figcaption>Illustrative calendar · example data</figcaption></figure>",
+      "css": ".ds-calendar-example{font-family:var(--font-display,Geist),sans-serif;color:#0f172a;}.ds-calendar-example p{margin:0;}.ds-calendar-example{margin: 0; padding: 25px; min-width: 0; border: 1px solid #e2e8f0; border-radius: 14px; background: #ffffff;}.ds-example-header{display: flex; align-items: center; justify-content: space-between; gap: 12px;}.ds-example-header > span:first-child{display: inline-flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 550; letter-spacing: -.02em;}.ds-example-header > span:last-child{color: #526176; font-size: 10px; white-space: nowrap;}.ds-example-header svg{color: #00776f;}.ds-calendar-week{display: grid; grid-template-columns: repeat(5, 1fr); margin-block: 25px 20px; gap: 8px;}.ds-calendar-week > div{padding: 10px 4px; text-align: center;}.ds-calendar-week span{display: block; font-size: 10px; color: #526176;}.ds-calendar-week strong{display: block; margin-top: 6px; font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums;}.ds-calendar-week [data-selected=\"true\"]{background: #0f172a; border-radius: 8px; color: white;}.ds-calendar-week [data-selected=\"true\"] span{color: white;}.ds-plan-intention{display: flex; align-items: flex-start; gap: 9px; margin-bottom: 27px; color: #00776f;}.ds-plan-intention svg{flex-shrink: 0; margin-top: 2px;}.ds-plan-intention p{font-size: 12px; line-height: 1.6;}.ds-plan-intention span{display: block; color: #526176; font-size: 10px; margin-top: 4px;}.ds-calendar-timeline{--minute: 2px; height: 376px; position: relative; margin-top: 5px;}.ds-calendar-hour{position: absolute; top: calc(var(--hour) * 120px); left: 0; right: 0; display: flex; align-items: flex-start; gap: 12px;}.ds-calendar-hour time{width: 37px; flex-shrink: 0; font: 10px var(--font-solo-mono,\"Geist Mono\"), monospace; color: #526176; transform: translateY(-6px);}.ds-calendar-hour > span{width: 100%; border-top: 1px solid #e2e8f0;}.ds-calendar-event{position: absolute; top: calc(var(--start) * var(--minute) + 1px); height: calc(var(--duration) * var(--minute) - 4px); left: 50px; right: 0; padding: 9px 13px; border-radius: 6px;}.ds-calendar-event > span{display: block; font-size: 9px; font-variant-numeric: tabular-nums;}.ds-calendar-event strong{display: block; margin-top: 5px; font-size: 13px; font-weight: 550; letter-spacing: -.015em;}.ds-calendar-event small{display: block; margin-top: 7px; font-size: 10px;}.ds-calendar-event[data-kind=\"focus\"]{background: #00776f; color: white;}.ds-calendar-event[data-kind=\"review\"]{background: #e5f5f2; color: #075e58;}.ds-calendar-event[data-kind=\"fixed\"]{background: #f1f5f9; color: #526176;}.ds-calendar-break{position: absolute; top: 99px; left: 50px; font-size: 9px; color: #526176; line-height: 20px;}.ds-calendar-break > span{font-variant-numeric: tabular-nums; margin-right: 8px;}.ds-calendar-summary{display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 12px; font-size: 10px; color: #526176;}.ds-calendar-summary svg{color: #00776f;}.ds-calendar-summary span:last-child{margin-left: auto; color: #00776f;}.ds-calendar-example figcaption{margin-top: 20px; font-size: 9px; line-height: 1.7; color: #526176;}@media (max-width: 800px){.ds-calendar-example{width: min(100%, 504px); justify-self: center;}}@media (max-width: 600px){.ds-calendar-example{padding: 20px;}.ds-example-header > span:first-child{font-size: 12px;}.ds-example-header > span:last-child{font-size: 9px;}.ds-calendar-summary span:last-child{width: 100%; margin-left: 21px;}}"
+    },
+    {
+      "name": "Illustrative weekly report",
+      "kind": "custom",
+      "refersTo": "example-card",
+      "description": "Static example metrics, proportional daily bars, two observations and a suggested next step; not measured customer results.",
+      "html": "<figure class=\"ds-weekly-report\" aria-label=\"Illustrative FlowSight weekly report with example data\"><div class=\"ds-example-header\"><span>Your weekly report</span><span>5–9 Oct 2026</span></div><dl class=\"ds-report-stats\"><div><dt>Time recorded</dt><dd>24h 30m</dd></div><div><dt>Sustained focus</dt><dd>10h</dd></div><div><dt>Days observed</dt><dd>5<span> / 5</span></dd></div></dl><div class=\"ds-report-chart\" role=\"img\" aria-label=\"Weekly recorded time and sustained focus. Mon: 5h recorded, 2h sustained focus. Tue: 5h 30m recorded, 2h 30m sustained focus. Wed: 4h recorded, 1h sustained focus. Thu: 5h 30m recorded, 3h sustained focus. Fri: 4h 30m recorded, 1h 30m sustained focus.\"><div class=\"ds-chart-scale\" aria-hidden=\"true\"><span>6h</span><span>3h</span><span>0h</span></div><div class=\"ds-chart-columns\"><div class=\"ds-chart-day\"><span class=\"ds-chart-value\">5h</span><div class=\"ds-chart-track\" aria-hidden=\"true\"><div class=\"ds-chart-total\" style=\"height:83.33333333333334%\"><div class=\"ds-chart-focus\" style=\"height:40%\"></div></div></div><span class=\"ds-chart-day-label\">Mon</span></div><div class=\"ds-chart-day\"><span class=\"ds-chart-value\">5h 30m</span><div class=\"ds-chart-track\" aria-hidden=\"true\"><div class=\"ds-chart-total\" style=\"height:91.66666666666666%\"><div class=\"ds-chart-focus\" style=\"height:45.45454545454545%\"></div></div></div><span class=\"ds-chart-day-label\">Tue</span></div><div class=\"ds-chart-day\"><span class=\"ds-chart-value\">4h</span><div class=\"ds-chart-track\" aria-hidden=\"true\"><div class=\"ds-chart-total\" style=\"height:66.66666666666666%\"><div class=\"ds-chart-focus\" style=\"height:25%\"></div></div></div><span class=\"ds-chart-day-label\">Wed</span></div><div class=\"ds-chart-day\"><span class=\"ds-chart-value\">5h 30m</span><div class=\"ds-chart-track\" aria-hidden=\"true\"><div class=\"ds-chart-total\" style=\"height:91.66666666666666%\"><div class=\"ds-chart-focus\" style=\"height:54.54545454545454%\"></div></div></div><span class=\"ds-chart-day-label\">Thu</span></div><div class=\"ds-chart-day\"><span class=\"ds-chart-value\">4h 30m</span><div class=\"ds-chart-track\" aria-hidden=\"true\"><div class=\"ds-chart-total\" style=\"height:75%\"><div class=\"ds-chart-focus\" style=\"height:33.33333333333333%\"></div></div></div><span class=\"ds-chart-day-label\">Fri</span></div></div></div><div class=\"ds-chart-legend\"><span><i></i> Sustained focus</span><span><i></i> Other recorded time</span></div><div class=\"ds-report-insights\"><div><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m128 24 29 75 75 29-75 29-29 75-29-75-75-29 75-29ZM216 16v32M200 32h32\"/></svg><p><strong>Thursday had the most sustained focus.</strong><span>3 hours across 5h 30m of recorded activity.</span></p></div><div><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"128\" cy=\"128\" r=\"96\"/><path d=\"M128 72v56h56\"/></svg><p><strong>Research &amp; planning took 9 hours.</strong><span>5h of research and 4h of planning in this example week.</span></p></div><div class=\"ds-report-suggestion\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 64h128v128M192 64 64 192\"/></svg><p><strong>Something to try next week</strong><span>Protect a 50-minute block for your main task, then review how it went.</span></p></div></div><figcaption>Illustrative report · example data, not a live analysis</figcaption></figure>",
+      "css": ".ds-weekly-report{font-family:var(--font-display,Geist),sans-serif;color:#0f172a;}.ds-weekly-report p{margin:0;} .ds-weekly-report{margin: 0; padding: 25px; min-width: 0; border: 1px solid #e2e8f0; border-radius: 14px; background: #ffffff;}.ds-example-header{display: flex; align-items: center; justify-content: space-between; gap: 12px;}.ds-example-header > span:first-child{display: inline-flex; align-items: center; gap: 9px; font-size: 14px; font-weight: 550; letter-spacing: -.02em;}.ds-example-header > span:last-child{color: #526176; font-size: 10px; white-space: nowrap;}.ds-example-header svg{color: #00776f;} .ds-weekly-report figcaption{margin-top: 20px; font-size: 9px; line-height: 1.7; color: #526176;}.ds-report-stats{display: grid; grid-template-columns: 1.2fr 1fr .9fr; gap: 12px; margin-block: 30px;}.ds-report-stats dt{color: #526176; font-size: 10px;}.ds-report-stats dd{margin: 8px 0 0; font-size: 27px; letter-spacing: -.035em; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap;}.ds-report-stats > div:nth-child(2) dd{color: #00776f;}.ds-report-stats dd span{color: #526176; font-size: 16px;}.ds-report-chart{display: flex; gap: 15px; height: 195px;}.ds-chart-scale{display: flex; flex-direction: column; justify-content: space-between; padding-block: 24px 26px; font: 9px var(--font-solo-mono,\"Geist Mono\"), monospace; color: #526176;}.ds-chart-columns{display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; flex: 1; min-width: 0;}.ds-chart-day{display: flex; flex-direction: column; align-items: center; min-width: 0;}.ds-chart-value{font-size: 10px; color: #526176; font-variant-numeric: tabular-nums; white-space: nowrap;}.ds-chart-track{display: flex; align-items: flex-end; width: 100%; max-width: 44px; height: 145px; margin-top: 9px;}.ds-chart-total{width: 100%; display: flex; flex-direction: column; justify-content: flex-end; background: #dbe6e9; border-radius: 4px 4px 0 0; overflow: hidden;}.ds-chart-focus{background: #00776f; width: 100%;}.ds-chart-day-label{margin-top: 9px; font-size: 10px; color: #526176;}.ds-chart-legend{display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 12px; color: #526176; font-size: 9px;}.ds-chart-legend span{display: inline-flex; align-items: center; gap: 6px;}.ds-chart-legend i{width: 7px; height: 7px; border-radius: 1px; background: #00776f;}.ds-chart-legend span:last-child i{background: #dbe6e9;}.ds-report-insights{display: grid; gap: 22px; margin-top: 30px;}.ds-report-insights > div{display: flex; align-items: flex-start; gap: 11px;}.ds-report-insights svg{color: #00776f; flex-shrink: 0; margin-top: 1px;}.ds-report-insights p{font-size: 12px; line-height: 1.6;}.ds-report-insights strong{font-weight: 550;}.ds-report-insights p span{display: block; margin-top: 4px; color: #526176; font-size: 11px;}.ds-report-suggestion{background: #edf8f5; padding: 14px; border-radius: 8px;}.ds-report-suggestion strong{color: #075e58;}@media (max-width: 800px){ .ds-weekly-report{width: min(100%, 504px); justify-self: center;}}@media (max-width: 600px){ .ds-weekly-report{padding: 20px;}.ds-example-header > span:first-child{font-size: 12px;}.ds-example-header > span:last-child{font-size: 9px;}.ds-report-stats{gap: 8px;}.ds-report-stats dt{font-size: 9px;}.ds-report-stats dd{font-size: 23px;}.ds-chart-columns{gap: 14px;}.ds-chart-value{font-size: 9px;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Private work intelligence, made clear",
+    "overview": "FlowSight Solo uses the white, navy and teal identity of the user-pinned FlowSight website. A faint technical grid holds the page together; generous space, direct Geist headlines and clear state changes keep the product explanation readable. White surfaces give the interactive example, calendar and report a quiet place within the grid. Actual app captures retain their own appearance.\n\nThis system covers the shared landing at `/` and `/offer-preview`. White appearance is deliberate under either OS theme. The landing CSS module, its demonstration, capability and example components, and the local fonts define the implemented system; unrelated legacy global styles and other application routes do not. Page sequence, offer behaviour and evidence belong in the [surface brief](.impeccable/surfaces/src-app-offer-preview-page-tsx.md). The established north star is retained for this documentation refresh.",
+    "keyCharacteristics": [
+      "Cool white ground with a faint, content-aligned technical grid.",
+      "Navy Geist headlines, accessible teal states and restrained brand teal.",
+      "Open section spacing, with outlines reserved for controls and contained examples.",
+      "Distinct framing for actual app captures and illustrative website components.",
+      "Visible keyboard focus, native interactions and reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The White Ground Rule",
+        "body": "Keep the landing white under either OS theme. The technical grid is part of the confirmed identity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signal Rule",
+        "body": "Use accessible teal for text, focus and selected states. Brand teal supports the identity; it does not replace the darker text accent. Product captures retain the application's original colours.",
+        "section": "colors"
+      },
+      {
+        "name": "The Brand Rule",
+        "body": "Spell the visible name FlowSight, with this exact capitalization, including examples and captions.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Section Rule",
+        "body": "Let the grid and whitespace separate sections and rows. Do not reintroduce divider rules across the header, principles, sections, product tabs, comparison rows, tools, connections, FAQ, closing or footer. Preserve control outlines, selected-state markers and calendar hour rules.",
+        "section": "layout"
+      },
+      {
+        "name": "The Product Depth Rule",
+        "body": "Use the ambient shadow for the full app window. Organise the surrounding interface through spacing, contained outlines and tonal surfaces.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the exact visible spelling FlowSight in page copy, captions, metadata and component specimens.",
+      "Do retain the white appearance and content-aligned technical grid under either OS theme.",
+      "Do use accessible teal for meaningful states and preserve visible keyboard focus.",
+      "Do distinguish authentic app captures from illustrative website calendars and reports.",
+      "Do preserve native semantics, responsive reading order and reduced-motion support.",
+      "Do retain local control outlines, selected-state markers and calendar hour rules."
+    ],
+    "donts": [
+      "Don't introduce an automatic dark palette into this landing.",
+      "Don't replace the requested grid with a plain field or another decorative texture.",
+      "Don't add divider rules to the open page sections and rows.",
+      "Don't recolour or reconstruct the actual product UI to match the landing palette.",
+      "Don't imply an illustrative interaction, calendar, report or fixture-backed capture is a live AI session or a measured customer result.",
+      "Don't make the static calendar dates, events or report marks look actionable.",
+      "Don't use compact example annotations or screenshot captions as the default size for explanatory copy."
+    ]
+  }
+}

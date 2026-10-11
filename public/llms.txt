@@ -14,7 +14,8 @@ Core product facts:
 
 - FlowSight analyses screen context locally to identify focus, context-switching, and work patterns.
 - Raw screen context is not uploaded to a manager-facing activity feed.
-- Free local mode works without an account.
+- Local mode works without a cloud account.
+- The official local edition has a planned EUR 25 one-time offer, including applicable tax and local updates. Checkout for this new offer is not open yet. Existing users retain their local updates.
 - Optional paid cloud features include AI coaching, a weekly PDF digest, and longer history.
 - Desktop releases are published for Windows, macOS, and Linux.
 - FlowSight Individual is designed for the person doing the work, not for employee surveillance.
