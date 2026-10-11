@@ -1,6 +1,6 @@
 import styles from "@/app/offer-preview/preview.module.css";
 
-const videoUrl = "https://mancasvel.github.io/flowsight-guides/assets/complete-guide/FlowSight-Complete-Guide-EN.mp4?v=17d537e84be9";
+const videoUrl = "https://mancasvel.github.io/flowsight-guides/assets/complete-guide/FlowSight-Complete-Guide-EN.mp4?v=6f5b7d037cfc";
 const guideUrl = "https://mancasvel.github.io/flowsight-guides/app-guide/";
 
 export function AppGuide() {
@@ -20,7 +20,7 @@ export function AppGuide() {
         aria-describedby="app-guide-description app-guide-note"
       >
         <source src={videoUrl} type="video/mp4" />
-        <track kind="captions" src="/product/flowsight-complete-guide.vtt" srcLang="en" label="English" />
+        <track kind="captions" src="/product/flowsight-complete-guide.vtt?v=6f5b7d037cfc" srcLang="en" label="English" />
         Your browser does not support this video. <a href={guideUrl}>Watch the guide and read the transcript.</a>
       </video>
       <div className={styles.guideDetails}>

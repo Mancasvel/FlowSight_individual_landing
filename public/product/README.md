@@ -1,6 +1,6 @@
 # Product capture provenance
 
-`flowsight-complete-guide.jpg` is the FlowSight guide's locally rebuilt 1920x1080 thumbnail. It uses the original FlowSight 6.1.0 Insights renderer capture with fictional demonstration records, Manrope typography and the guide's teal/off-white/gold palette. The language/duration badge was removed at the owner's request. The source is `growth/video/build-thumbnail.py` in the existing E: project; the current 90-second video has locally synthesized neural English narration, original chill music and embedded captions. It is not a live native/cloud/model recording.
+`flowsight-complete-guide.jpg` is the FlowSight guide's locally rebuilt 1920x1080 thumbnail. It uses the original FlowSight 6.1.0 Insights renderer capture with fictional demonstration records, Manrope typography and the guide's teal/off-white/gold palette. The owner's revised opening is Welcome to FlowSight. Recover your FlowState. Personal attribution and the duration/language badge were removed from the poster and video branding. The source is `growth/video/build-thumbnail.py` in the existing E: project; the current 90-second video has locally synthesized neural English narration, original chill music and embedded captions. It is not a live native/cloud/model recording.
 
 These two images capture the unmodified **FlowSight 6.1.0 Windows renderer**
 at commit `1773d97`, from
