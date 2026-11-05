@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   agentRules: false,
   reactStrictMode: true,
   poweredByHeader: false,
+  async redirects() {
+    return [{ source: "/update/windows", destination: "https://app.flowsight.site/api/desktop-releases/windows/latest.exe", permanent: false }];
+  },
   async headers() {
     const privateHeaders = [
       { key: "Cache-Control", value: "private, no-store" },

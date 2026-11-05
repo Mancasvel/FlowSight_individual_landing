@@ -125,7 +125,7 @@ export default function OfferPreview() {
               <label className={styles.businessDeclaration}><input name="businessDeclared" type="checkbox" value="true" required /><span>I represent a company or work as a self-employed professional, and I am buying for professional use.</span></label>
               <button className={styles.offerAction} type="submit">Get FlowSight for €25 <ArrowUpRight size={19} aria-hidden /></button>
             </form> : <a className={styles.offerAction} href={launchEmail}>Ask about availability <ArrowUpRight size={19} aria-hidden /></a>}
-            <p className={styles.existingUsers}>Already using FlowSight? You keep your local updates without paying again.</p>
+            <p className={styles.existingUsers}>Already using FlowSight? You keep your local updates without paying again. <a href="https://flowsight.site/update/windows">Update for Windows.</a> Install it over your existing installation once; future updates are available in the app.</p>
           </div>
         </section>
         <aside className={styles.cloudNote} aria-label="Optional cloud plan">
@@ -138,7 +138,7 @@ export default function OfferPreview() {
           <div className={styles.faqList}>
             <details><summary>Does the AI need the cloud?<Plus size={20} aria-hidden /></summary><p>No. The local edition includes a model that analyses sensitive screen context on your device. Optional cloud services and connections to external AI are separate choices and can send selected data to those services.</p></details>
             <details><summary>What does the €25 cover?<Plus size={20} aria-hidden /></summary><p>The planned €25 total, including applicable tax, covers the official Windows, macOS and Linux installers, one active computer per operating system, and local updates. Monthly cloud plans are separate. {checkoutOpen ? "The final total is shown before payment." : "Checkout is not open yet; contact us for availability."}</p></details>
-            <details><summary>What if I already use FlowSight?<Plus size={20} aria-hidden /></summary><p>Existing users, including historical purchasers, keep their local updates without paying again. Previously published installers remain available during the transition.</p></details>
+            <details><summary>What if I already use FlowSight?<Plus size={20} aria-hidden /></summary><p>Existing users, including historical purchasers, keep their local updates without paying again. <a href="https://flowsight.site/update/windows">Download the latest Windows update</a> and install it over your existing installation once. Future updates are available in the app.</p></details>
             <details><summary>Can I build it from source?<Plus size={20} aria-hidden /></summary><p>Yes. The source stays public under AGPL-3.0. You can use, build, modify and redistribute it under that licence. The one-time offer is for the official distribution, not exclusive rights to the code. <a href={sourceUrl} target="_blank" rel="noopener noreferrer">View the repository.</a></p></details>
           </div>
         </section>
@@ -146,7 +146,7 @@ export default function OfferPreview() {
       </main>
       <footer className={styles.footer}>
         <div className={styles.footerBrand}><strong>FlowSight <span>Solo</span></strong><p>Work intelligence. For you.</p></div>
-        <nav aria-label="Footer navigation"><a href={sourceUrl} target="_blank" rel="noopener noreferrer">Source code</a><a href={`${siteConfig.companyUrl}/privacy-policy`}>Privacy</a><a href={`${siteConfig.companyUrl}/support`}>Support</a><a href={siteConfig.teamsUrl}>For teams <ArrowUpRight size={13} aria-hidden /></a></nav>
+        <nav aria-label="Footer navigation"><a href="https://flowsight.site/update/windows">Windows update</a><a href={sourceUrl} target="_blank" rel="noopener noreferrer">Source code</a><a href={`${siteConfig.companyUrl}/privacy-policy`}>Privacy</a><a href={`${siteConfig.companyUrl}/support`}>Support</a><a href={siteConfig.teamsUrl}>For teams <ArrowUpRight size={13} aria-hidden /></a></nav>
         <span className={styles.footerLegal}>FlowSight Individual</span>
       </footer>
     </div>
