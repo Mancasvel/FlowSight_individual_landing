@@ -1,7 +1,8 @@
 import {
   LINUX_REPOS,
   MAC_REPO,
-  WINDOWS_REPOS,
+  WINDOWS_RELEASE_BASE,
+  WINDOWS_UPDATE_URL,
   fallbackRelease,
   type DownloadUrls,
   type FlowSightRelease,
@@ -94,21 +95,23 @@ async function candidates(repos: readonly string[]): Promise<GithubRelease[]> {
 
 async function resolveWindows(): Promise<ReleaseSlice | null> {
   const pinned = process.env.NEXT_PUBLIC_AGENT_RELEASE_TAG;
-  const releases = await candidates(WINDOWS_REPOS);
-  const release = releases.find((item) => {
-    if (pinned && item.tag_name !== pinned) return false;
-    return item.assets.some((asset) => /_x64-(setup|en-US)\.(exe|msi)$/i.test(asset.name));
+  const path = pinned ? `${encodeURIComponent(pinned)}/latest.json` : "latest.json";
+  const response = await fetch(`${WINDOWS_RELEASE_BASE}/${path}`, {
+    next: { revalidate: 60, tags: ["flowsight-releases"] },
+    signal: AbortSignal.timeout(20_000),
   });
-
-  if (!release) return null;
-
+  if (!response.ok) return null;
+  const manifest = await response.json();
+  const version = manifest.version;
+  if (typeof version !== "string" || !/^\d+\.\d+\.\d+$/.test(version)
+    || !manifest.platforms?.["windows-x86_64"]?.signature) return null;
   return {
-    tag: release.tag_name,
-    version: versionFrom(release),
-    releasePage: release.html_url,
+    tag: `v${version}`,
+    version,
+    releasePage: WINDOWS_UPDATE_URL,
     downloads: {
-      windowsExe: findAsset(release, /_x64-setup\.exe$/i),
-      windowsMsi: findAsset(release, /_x64_en-US\.msi$/i),
+      windowsExe: pinned ? `${WINDOWS_RELEASE_BASE}/v${version}/FlowSight.Agent_${version}_x64-setup.exe` : `${WINDOWS_RELEASE_BASE}/latest.exe`,
+      windowsMsi: pinned ? `${WINDOWS_RELEASE_BASE}/v${version}/FlowSight.Agent_${version}_x64_en-US.msi` : `${WINDOWS_RELEASE_BASE}/latest.msi`,
     },
   };
 }
